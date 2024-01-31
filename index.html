@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Truck Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+    <!--==============Css Link==============-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon-logo.png" />
+
+    <!-- animation link -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+</head>
+
+<body>
+
+    <section class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="left-topbar-item">
+                        <p><i class="fa-solid fa-location-dot"></i> <span>Near Exit 238 Highway 401 Woodstock
+                                Ontario</span></p>
+
+                        <p><i class="fa-solid fa-phone"></i> <span> <a href="tel:+1 647 293 8994">+1 647 293
+                                    8994</a></span></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="right-topbar-item">
+                        <ul class="top-social-media-icon">
+                            <li>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-discord"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="main-navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 px-0">
+                    <div class="logo-area">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="optional-centered-area-on-mobile">
+                        <div class="mobile-menu-icon-pro">
+                            <!-- Toggle button -->
+                            <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation" onclick="toggleIcon()">
+                                <i id="menuIcon" class="fas fa-bars"></i>
+                                <span class="progression-mobile-menu-text">Menu</span>
+                            </button>
+                        </div>
+                        <div class="progression-nav-container">
+                            <!-- Navbar -->
+                            <nav class="navbar navbar-expand-lg">
+                                <!-- Container wrapper -->
+                                <div class="container-fluid px-0">
+
+                                    <!-- Collapsible wrapper -->
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                                        <!-- Left links -->
+                                        <ul class="navbar-nav  mx-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-selected="true"
+                                                    href="index.html">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="menu.html">Menu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="about-us.html">About
+                                                    Us</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false"
+                                                    href="truck-locator.html">Truck Locator</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false"
+                                                    href="services.html">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="contact-us.html">Contact
+                                                    Us</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Left links -->
+                                    </div>
+                                    <!-- Collapsible wrapper -->
+                                </div>
+                                <!-- Container wrapper -->
+                            </nav>
+                            <!-- Navbar -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-area">
+        <div id="carouselExampleCrossfade" class="carousel slide carousel-fade" data-mdb-ride="carousel"
+            data-mdb-carousel-init>
+            <div class="carousel-indicators">
+                <button type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide-to="0"
+                    class="active rounded-circle border" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-mdb-target="#carouselExampleCrossfade" data-mdb-slide-to="1"
+                    class="rounded-circle border " aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner-img/slide1.jpg" class="d-block w-100" alt="" />
+                    <div class="mask">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="text-white text-center">
+                                <h1 class="banner-title mb-3 animate__animated animate__fadeIn">A Really Good Place To
+                                    Eat</h1>
+                                <h5 class="banner-sub-title mb-4 animate__animated animate__fadeIn">Welcome to Mr. Chef
+                                    – Where Culinary Excellence Meets Convenience!</h5>
+                                <div class="banner-btn-area">
+                                    <a data-mdb-ripple-init class="banner-btn animate__animated animate__fadeIn"
+                                        href="contact-us.html" target="_blank">CONTACT US</a>
+                                    <a data-mdb-ripple-init class="banner-btn-2 animate__animated animate__fadeIn"
+                                        href="menu.html" target="_blank">VIEW
+                                        MENU</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner-img/slide2.jpg" class="d-block w-100" alt="" />
+                    <div class="mask">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="text-white text-center">
+                                <h1 class="banner-title mb-3 animate__animated animate__fadeIn">Fresh, Fast, & Delicious
+                                </h1>
+                                <h5 class="banner-sub-title mb-4 animate__animated animate__fadeIn">Made from locally
+                                    sourced & fresh ingredients</h5>
+                                <div class="banner-btn-area">
+                                    <a data-mdb-ripple-init class="banner-btn animate__animated animate__fadeIn"
+                                        href="contact-us.html" target="_blank">CONTACT US</a>
+                                    <a data-mdb-ripple-init class="banner-btn-2 animate__animated animate__fadeIn"
+                                        href="menu.html" target="_blank">VIEW MENU</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCrossfade"
+                data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCrossfade"
+                data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="about-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-5">
+                    <div class="about-upper-area-img">
+                        <img src="images/about-img/truck-food.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <div class="about-upper-area-description">
+                        <h2> <span class="about-icon"><i class="fa-solid fa-minus"></i></span> Cozy Place</h2>
+                        <p>Step into Mr. Chef, where we have drafted not just a eatery but a cozy retreat for food
+                            suckers seeking warmth, comfort, and succulent recollections. Our commitment goes beyond
+                            serving exceptional dishes; it's about furnishing an inviting and snug atmosphere that makes
+                            every visit a gladdening experience. </p>
+                        <div class="btn-about">
+                            <a data-mdb-ripple-init class="banner-btn" href="truck-locator.html" target="_blank">TRUCK
+                                Locator</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <div class="about-upper-area-description">
+                        <h2> <span class="about-icon"><i class="fa-solid fa-minus"></i></span> Good Vibes</h2>
+                        <p>We believe that a truly satisfying dining experience extends beyond the plate. It's about
+                            creating an atmosphere filled with positive energy, warmth, and good vibes. Join us in our
+                            culinary haven where the joy of succulent food meets the sense-good air that sets the stage
+                            for memorable moments.</p>
+                        <div class="btn-about">
+                            <a data-mdb-ripple-init class="banner-btn" href="menu.html" target="_blank">VIEW MENU</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <div class="about-upper-area-img">
+                        <img src="images/about-img/truck-food1.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <div class="about-upper-area-img">
+                        <img src="images/about-img/relaxatmosphere.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-5">
+                    <div class="about-upper-area-description">
+                        <h2> <span class="about-icon"><i class="fa-solid fa-minus"></i></span> Relax Atmosphere</h2>
+                        <p>We want you to feel not just satisfied but rejuvenated. Join us in creating moments of
+                            tranquility and relaxation, where the pleasure of dining is rounded by the peaceful
+                            atmosphere that surrounds you. </p>
+                        <div class="btn-about">
+                            <a data-mdb-ripple-init class="banner-btn" href="contact-us.html" target="_blank">CONTACT
+                                US</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-area">
+        <div class="overlay-gallery"></div>
+        <div class="container">
+            <div class="col-md-12">
+                <div class="gallery-header">
+                    <h3><span>Mr. Chef's</span> Truck Gallery</h3>
+                    <p>We offer catering for birthdays, weddings & more!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-img-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="column-pg">
+
+                        <div class="slide-img">
+                            <img class="myImages" src="images/gallery-img/gallery2.jpg">
+                        </div>
+
+                        <div class="slide-img">
+                            <img class="myImages" src="images/gallery-img/gallery4.jpg">
+                        </div>
+
+                        <div class="slide-img">
+                            <img class="myImages" src="images/gallery-img/gallery5.jpg">
+                        </div>
+
+                        <div class="slide-img">
+                            <img class="myImages" src="images/gallery-img/gallery6.jpg">
+                        </div>
+
+                        <div class="slide-img">
+                            <img class="myImages" src="images/gallery-img/gallery7.jpg">
+                        </div>
+
+                        <div class="slide-img">
+                            <img class="myImages" src="images/gallery-img/gallery8.jpg">
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <div class="newsletter-content">
+                        <h3>SPECIAL OFFERS</h3>
+                        <p>For Exclusive Deals, Tiffin Services & Catering Services and More!</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="newsletter-email-box">
+                        <a href="tel:+1 647 293 8994"> <i class="fa-solid fa-phone-volume fa-beat "></i> +1 647 293
+                            8994</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tf__testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-md-10 m-auto wow fadeInUp" data-wow-duration="1s">
+                    <div class="tf__section_heading ">
+                        <h5>our testimonial</h5>
+                        <h3>What Our Clients Says</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row testi_slider wow fadeInUp" data-wow-duration="1s">
+                <div class="col-xl-4">
+                    <div class="tf__single_testimonial">
+                        <div class="tf__single_testimonial_img">
+                            <img src="images/client/client_1.jpg" alt="client" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_testimonial_text">
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <p class="cliect_comment">
+                                "I had the most amazing experience at Riyan Thai Spa. The use of natural products and
+                                expert therapists left me feeling rejuvenated and utterly pampered. Highly recommended!"
+                            </p>
+                            <h3 class="title">Priyanka </h3>
+                            <!-- <p class="designation">Sr. UX/UI Designer</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="tf__single_testimonial">
+                        <div class="tf__single_testimonial_img">
+                            <img src="images/client/client_2.jpg" alt="client" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_testimonial_text">
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <p class="cliect_comment">
+                                "I've been a regular at Riyan Thai Spa for years. Their customized treatments have
+                                improved my well-being significantly. It's a place where you truly get your money's
+                                worth."
+                            </p>
+                            <h3 class="title">Sonali </h3>
+                            <!-- <p class="designation">Software Engineer</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="tf__single_testimonial">
+                        <div class="tf__single_testimonial_img">
+                            <img src="images/client/client_3.jpg" alt="client" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_testimonial_text">
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <p class="cliect_comment">
+                                "Riyan Thai Spa's decade-long experience shows in their services. It's not just a spa;
+                                it's a journey to relaxation and revitalization. I always leave with a smile."
+                            </p>
+                            <h3 class="title">Deepika </h3>
+                            <!-- <p class="designation">Content Writter</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="tf__single_testimonial">
+                        <div class="tf__single_testimonial_img">
+                            <img src="images/client/client_2.jpg" alt="client" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_testimonial_text">
+                            <p class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            <p class="cliect_comment">
+                                "Riyan Thai Spa in Bangalore is a hidden gem! Their skilled therapists and serene
+                                ambiance provide the perfect escape from city life. I left feeling completely refreshed
+                                and relaxed."
+                            </p>
+                            <h3 class="title">Riya</h3>
+                            <!-- <p class="designation">Software Engineer</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-inner">
+                        <h3 class="footer-inner-title"><span><i class="fa-solid fa-utensils"></i></span> About Mr.
+                            Chef's
+                        </h3>
+                        <p>Mr. Chef's food truck on to the streets of Sonoma in December, 2012. And with it, they took
+                            Sonoma by storm with everyone’s favorite comfort food; grilled cheese sandwiches, tacos –
+                            only not quite as innocent as mom used to make!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-hours">
+                        <h3 class="footer-inner-title"><span><i class="fa-regular fa-clock"></i></span>Opening Hours
+                        </h3>
+
+                        <ul class="timming-area">
+                            <li>
+                                <h5>Monday<span class="time-custom">8am-10pm</span></h3>
+                            </li>
+                            <li>
+                                <h5>Tuesday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Wednesday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Thursday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Friday<span>11am-12pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Saturday<span>11am-12pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Sunday<span>11am-12pm</span></h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-contact-us">
+                        <h3 class="footer-inner-title"><span><i class="fa-solid fa-bullhorn"></i></span>Connect with us
+                        </h3>
+                        <ul class="footer-contact-area">
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Tiffin Services: <a href="tel:+1 647 293 8994">+1
+                                        647 293 8994</a> </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Catering Services: <a
+                                        href="tel:+1 647 293 8994">+1 647 293 8994</a> </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                                <span class="footer-contact-area-text"><a
+                                        href="mailto:abc@gmail.com">abc@gmail.com</a></span>
+                            </li>
+                        </ul>
+                        <div class="social-icons-footer">
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-area">
+                            <div class="copyright-text">
+                                <p>© 2023 Mr. Chef's. All rights reserved.</p>
+                            </div>
+                            <div class="development-text">
+                                <p>Design & Developed by <a target="_blank"
+                                        href="https://eirmonsolutions.com.au/">Eirmon Solution</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="css/main.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/348356cdb0.js" crossorigin="anonymous"></script>
+
+
+    <!--=================Gallery Js=======================-->
+
+    <script>
+        $('.column-pg').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            dots: true,
+            arrows: false,
+
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 3,
+                    }                       
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+
+    <!--=================Testimonails Js=======================-->
+
+    <script>
+        $('.testi_slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            dots: true,
+            arrows: false,
+
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Truck Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+    <!--==============Css Link==============-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon-logo.png" />
+
+</head>
+
+<body>
+
+
+    <section class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="left-topbar-item">
+                        <p><i class="fa-solid fa-location-dot"></i> <span>Near Exit 238 Highway 401 Woodstock
+                                Ontario</span></p>
+
+                        <p><i class="fa-solid fa-phone"></i> <span> <a href="tel:+1 647 293 8994">+1 647 293 8994</a></span></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="right-topbar-item">
+                        <ul class="top-social-media-icon">
+                            <li>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-discord"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="main-navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 px-0">
+                    <div class="logo-area">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="optional-centered-area-on-mobile">
+                        <div class="mobile-menu-icon-pro">
+                            <!-- Toggle button -->
+                            <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation" onclick="toggleIcon()">
+                                <i id="menuIcon" class="fas fa-bars"></i>
+                                <span class="progression-mobile-menu-text">Menu</span>
+                            </button>
+                        </div>
+                        <div class="progression-nav-container">
+                            <!-- Navbar -->
+                            <nav class="navbar navbar-expand-lg">
+                                <!-- Container wrapper -->
+                                <div class="container-fluid px-0">
+
+                                    <!-- Collapsible wrapper -->
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                                        <!-- Left links -->
+                                        <ul class="navbar-nav  mx-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-selected="true"
+                                                    href="index.html">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="menu.html">Menu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="about-us.html">About
+                                                    Us</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false"
+                                                    href="truck-locator.html">Truck Locator</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="services.html">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="contact-us.html">Contact
+                                                    Us</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Left links -->
+                                    </div>
+                                    <!-- Collapsible wrapper -->
+                                </div>
+                                <!-- Container wrapper -->
+                            </nav>
+                            <!-- Navbar -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="breadcrumbs-area">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white text-center">
+                        <h1 class="banner-title mb-3 animate__animated animate__fadeIn">Contact Us</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="tf__contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 col-lg-4 ">
+                    <div class="tf__contact_info">
+                        <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i></span>
+                        <h3>Our Location</h3>
+                        <p>Near Exit 238 Highway 401 Woodstock Ontario</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4 ">
+                    <div class="tf__contact_info">
+                        <span><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4 ">
+                    <div class="tf__contact_info">
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <h3>Call Us</h3>
+                        <p><a href="tel:+1 647 293 8994">+1 647 293 8994</a></p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-4">
+                    <div class="tf__contact_info">
+                        <span><i class="fas fa-clock" aria-hidden="true"></i></span>
+                        <h3>Working Hours</h3>
+                        <p>Monday to Saturday :</p>
+                        <p>09:00am - 10:00pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form_type">
+                <div class="row">
+                    <div class="col-xl-5 ">
+                        <div class="tf__contact_map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29199.787582070454!2d90.43684581929189!3d23.819543211524437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c62fce7d991f%3A0xacfaf1ac8e944c05!2sBasundhara%20Residential%20Area%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1671603674550!5m2!1sen!2sbd"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 m-auto ">
+                        <form class="tf__contact_form">
+                            <h2>Do You have Any Questions?</h2>
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="email" placeholder="Your Email">
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="text" placeholder="Your Phone">
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="text" placeholder="Subject">
+                                </div>
+                                <div class="col-xl-12">
+                                    <textarea rows="7" placeholder="Write something Here"></textarea>
+                                </div>
+                                <div class="col-xl-7 col-md-6">
+                                    <div style="margin:10px 0" class="g-recaptcha"
+                                        data-sitekey="6LetMjYpAAAAANXMe3tDSO0RgYyDvx2kXMsbNRG5"></div>
+                                </div>
+
+                                <div class="col-xl-5 col-md-6">
+                                    <div class="form-btn">
+                                        <button type="submit" class="banner-btn">Send Message <i
+                                                class="fa-solid fa-arrow-right"></i></button>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-12 contact__msg"  style="display: none">
+                                    <p>Your message was sent successfully.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-inner">
+                        <h3 class="footer-inner-title"><span><i class="fa-solid fa-utensils"></i></span> About Mr.
+                            Chef's
+                        </h3>
+                        <p>Mr. Chef's food truck on to the streets of Sonoma in December, 2012. And with it, they took
+                            Sonoma by storm with everyone’s favorite comfort food; grilled cheese sandwiches, tacos –
+                            only not quite as innocent as mom used to make!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-hours">
+                        <h3 class="footer-inner-title"><span><i class="fa-regular fa-clock"></i></span>Opening Hours
+                        </h3>
+
+                        <ul class="timming-area">
+                            <li>
+                                <h5>Monday<span class="time-custom">8am-10pm</span></h3>
+                            </li>
+                            <li>
+                                <h5>Tuesday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Wednesday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Thursday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Friday<span>11am-12pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Saturday<span>11am-12pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Sunday<span>11am-12pm</span></h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-contact-us">
+                        <h3 class="footer-inner-title"><span><i class="fa-solid fa-bullhorn"></i></span>Connect with us
+                        </h3>
+                        <ul class="footer-contact-area">
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Tiffin Services: <a href="tel:+1 647 293 8994">+1 647 293 8994</a> </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Catering Services: <a href="tel:+1 647 293 8994">+1 647 293 8994</a> </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                                <span class="footer-contact-area-text"><a href="mailto:abc@gmail.com">abc@gmail.com</a></span>
+                            </li>
+                        </ul>
+                        <div class="social-icons-footer">
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-area">
+                            <div class="copyright-text">
+                                <p>© 2023 Mr. Chef's. All rights reserved.</p>
+                            </div>
+                            <div class="development-text">
+                                <p>Design & Developed by <a target="_blank"
+                                        href="https://eirmonsolutions.com.au/">Eirmon Solution</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://kit.fontawesome.com/348356cdb0.js" crossorigin="anonymous"></script>
+    <script src="css/main.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

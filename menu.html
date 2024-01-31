@@ -1,0 +1,1156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Truck Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+    <!--==============Css Link==============-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon-logo.png" />
+
+</head>
+
+<body>
+
+
+    <section class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <div class="left-topbar-item">
+                        <p><i class="fa-solid fa-location-dot"></i> <span>Near Exit 238 Highway 401 Woodstock
+                                Ontario</span></p>
+
+                        <p><i class="fa-solid fa-phone"></i> <span> <a href="tel:+1 647 293 8994">+1 647 293 8994</a></span></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="right-topbar-item">
+                        <ul class="top-social-media-icon">
+                            <li>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-discord"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="main-navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 px-0">
+                    <div class="logo-area">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="optional-centered-area-on-mobile">
+                        <div class="mobile-menu-icon-pro">
+                            <!-- Toggle button -->
+                            <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation" onclick="toggleIcon()">
+                                <i id="menuIcon" class="fas fa-bars"></i>
+                                <span class="progression-mobile-menu-text">Menu</span>
+                            </button>
+                        </div>
+                        <div class="progression-nav-container">
+                            <!-- Navbar -->
+                            <nav class="navbar navbar-expand-lg">
+                                <!-- Container wrapper -->
+                                <div class="container-fluid px-0">
+
+                                    <!-- Collapsible wrapper -->
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                                        <!-- Left links -->
+                                        <ul class="navbar-nav  mx-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-selected="true"
+                                                    href="index.html">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="menu.html">Menu</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="about-us.html">About
+                                                    Us</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false"
+                                                    href="truck-locator.html">Truck Locator</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="services.html">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" aria-selected="false" href="contact-us.html">Contact
+                                                    Us</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Left links -->
+                                    </div>
+                                    <!-- Collapsible wrapper -->
+                                </div>
+                                <!-- Container wrapper -->
+                            </nav>
+                            <!-- Navbar -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="breadcrumbs-area">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white text-center">
+                        <h1 class="banner-title mb-3 animate__animated animate__fadeIn">Menu</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Menu Page</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="menu-area">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <!-- Pills navs -->
+                    <ul class="nav nav-pills" id="ex1" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a data-mdb-pill-init class="nav-link active" id="ex1-tab-1" href="#ex1-pills-1" role="tab"
+                                aria-controls="ex1-pills-1" aria-selected="true">APPETIZERS</a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a data-mdb-pill-init class="nav-link" id="ex1-tab-2" href="#ex1-pills-2" role="tab"
+                                aria-controls="ex1-pills-2" aria-selected="false">BREAKFAST</a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a data-mdb-pill-init class="nav-link" id="ex1-tab-3" href="#ex1-pills-3" role="tab"
+                                aria-controls="ex1-pills-3" aria-selected="false">LUNCH & DINNER</a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a data-mdb-pill-init class="nav-link" id="ex1-tab-4" href="#ex1-pills-4" role="tab"
+                                aria-controls="ex1-pills-4" aria-selected="false">NON-VEG</a>
+                        </li>
+
+                        <li class="nav-item" role="presentation">
+                            <a data-mdb-pill-init class="nav-link" id="ex1-tab-5" href="#ex1-pills-5" role="tab"
+                                aria-controls="ex1-pills-5" aria-selected="false">FAST FOOD</a>
+                        </li>
+                    </ul>
+                    <!-- Pills navs -->
+
+                    <!-- Pills content -->
+                    <div class="tab-content" id="ex1-content">
+                        <div class="tab-pane fade show active" id="ex1-pills-1" role="tabpanel"
+                            aria-labelledby="ex1-tab-1">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="menu-wrapper-left">
+                                        <div class="menu-title">
+                                            <h3>Appetizers</h3>
+                                        </div>
+                                        <div class="menu-item-divider-area">
+                                            <div class="divider-item"><span class="divider-separator"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-left">
+
+                                        <!--=========== Appetizers Item Here =============-->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Veg Samosa <span
+                                                            class="item-price-list">$2</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Veg Pakora <span
+                                                            class="item-price-list">$8</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Paneer Pakora <span
+                                                            class="item-price-list">$8</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Bread Pakora <span
+                                                            class="item-price-list">$8</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Fish Pakora <span
+                                                            class="item-price-list">$12</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Pakora <span
+                                                            class="item-price-list">$12</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Appetizers Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Cheese Chilli <span
+                                                            class="item-price-list">$12</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Chilli <span
+                                                            class="item-price-list">$12</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Tandoori Chicken Legs <span
+                                                            class="item-price-list">$12</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Tikka <span
+                                                            class="item-price-list">$12</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Seekh Kabab <span
+                                                            class="item-price-list">$12</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Veg Pakora <span
+                                                            class="item-price-list">$8</span>
+                                                    </h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="ex1-pills-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="menu-wrapper-left">
+                                        <div class="menu-title">
+                                            <h3>Breakfast</h3>
+                                        </div>
+                                        <div class="menu-item-divider-area">
+                                            <div class="divider-item"><span class="divider-separator"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Breakfast Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Allu Prantha <span
+                                                            class="item-price-list">$3</span></h3>
+                                                    <div class="item-price-list-content">(Served with Achar, Raita)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Mix Prantha <span
+                                                            class="item-price-list">$3</span></h3>
+                                                    <div class="item-price-list-content">(Served with Achar, Raita)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Cheese Prantha <span
+                                                            class="item-price-list">$4</span></h3>
+                                                    <div class="item-price-list-content">(Served with Achar, Raita)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Breakfast Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Veg Thalli <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Nan, Rice, Salad)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Non Veg Thalli <span
+                                                            class="item-price-list">$15</span></h3>
+                                                    <div class="item-price-list-content">(Nan, Rice, Salad, Rice
+                                                        Pudding, Non Veg)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Indian Tea, Coffee <span
+                                                            class="item-price-list">$3 / $4</span></h3>
+                                                    <div class="item-price-list-content">(Served with Achar, Raita)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="ex1-pills-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="menu-wrapper-left">
+                                        <div class="menu-title">
+                                            <h3>LUNCH & DINNER</h3>
+                                        </div>
+                                        <div class="menu-item-divider-area">
+                                            <div class="divider-item"><span class="divider-separator"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Lunch & Dinner Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Mix Veg <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Dal Makhni <span
+                                                            class="item-price-list">$7</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Dal Tadka <span
+                                                            class="item-price-list">$7</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Shahi Paneer <span
+                                                            class="item-price-list">$9</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Karahi Paneer <span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Palak Paneer <span
+                                                            class="item-price-list">$9</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Mutter Paneer <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Paneer Bhurji <span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Egg Bhurji <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Curry Pakora <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Cheese Tomato <span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Mutter Mushroom <span
+                                                            class="item-price-list">$9</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Breakfast Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Mushroom Masala <span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Channa Masala <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Veg Curry <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Allu Gobhi <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+
+                                        <!-- =========Breads Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <div class="menu-title">
+                                                <h3>BREADS</h3>
+                                            </div>
+                                            <div class="menu-item-divider-area">
+                                                <div class="divider-item"><span class="divider-separator"></span></div>
+                                            </div>
+                                            <ul class="menu-item-box">
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Tawa Rotti <span
+                                                            class="item-price-list">$1.50</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Tandoori Rotti <span
+                                                            class="item-price-list">$2</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Tandoori Naan Plain <span
+                                                            class="item-price-list">$2.50</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Tandoori Butter Naan <span
+                                                            class="item-price-list">$3</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Tandoori Garlic Naan <span
+                                                            class="item-price-list">$3.50</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Tandoori Stuffed Naan <span
+                                                            class="item-price-list">$4</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Rice Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <div class="menu-title">
+                                                <h3>Rice</h3>
+                                            </div>
+                                            <div class="menu-item-divider-area">
+                                                <div class="divider-item"><span class="divider-separator"></span></div>
+                                            </div>
+                                            <ul class="menu-item-box">
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Plain Rice <span
+                                                            class="item-price-list">$4</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Jira Fried Rice <span
+                                                            class="item-price-list">$5</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Veg Fried Rice <span
+                                                            class="item-price-list">$7</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Mushroom Fried Rice<span
+                                                            class="item-price-list">$7</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Fried Rice <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">Non-(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Veg Biriani <span
+                                                            class="item-price-list">$11</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Biriani <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Plain Yogurt <span
+                                                            class="item-price-list">$4</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Bundi Raita <span
+                                                            class="item-price-list">$5.50</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Mix Raita <span
+                                                            class="item-price-list">$6</span></h3>
+                                                    <div class="item-price-list-content">(Veg Item)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="ex1-pills-4" role="tabpanel" aria-labelledby="ex1-tab-4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="menu-wrapper-left">
+                                        <div class="menu-title">
+                                            <h3>Non Veg</h3>
+                                        </div>
+                                        <div class="menu-item-divider-area">
+                                            <div class="divider-item"><span class="divider-separator"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Non Veg Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Butter Chicken <span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Curry<span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Lamb Curry <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Goat Curry <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Non Veg Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Karahi Chicken <span
+                                                            class="item-price-list">$11</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Tikka Masala <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chicken Korma <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Non-Veg)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="ex1-pills-5" role="tabpanel" aria-labelledby="ex1-tab-5">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="menu-wrapper-left">
+                                        <div class="menu-title">
+                                            <h3>Fast Food</h3>
+                                        </div>
+                                        <div class="menu-item-divider-area">
+                                            <div class="divider-item"><span class="divider-separator"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Fast Food Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Burger <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Fast Food)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Noodles<span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Fast Food)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Manchurian <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Fast Food)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Spring Roll <span
+                                                            class="item-price-list">$12</span></h3>
+                                                    <div class="item-price-list-content">(Fast Food)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="menu-wrapper-right">
+
+                                        <!-- =========Breakfast Item Here========= -->
+                                        <div class="main-menu-item">
+                                            <ul class="menu-item-box">
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Pasta <span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Fast Food)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Chana Samosa <span
+                                                            class="item-price-list">$8</span></h3>
+                                                    <div class="item-price-list-content">(Fast Food)</div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="item-img"><img src="images/menu-item-img/item1.jpg"
+                                                            alt=""></div>
+                                                    <h3 class="item-name">Channa Poori <span
+                                                            class="item-price-list">$10</span></h3>
+                                                    <div class="item-price-list-content">(Fast Food)
+                                                    </div>
+                                                    <div class="item-menu-box-bottom-divider"></div>
+                                                </li>
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- Pills content -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-inner">
+                        <h3 class="footer-inner-title"><span><i class="fa-solid fa-utensils"></i></span> About Mr.
+                            Chef's
+                        </h3>
+                        <p>Mr. Chef's food truck on to the streets of Sonoma in December, 2012. And with it, they took
+                            Sonoma by storm with everyone’s favorite comfort food; grilled cheese sandwiches, tacos –
+                            only not quite as innocent as mom used to make!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-hours">
+                        <h3 class="footer-inner-title"><span><i class="fa-regular fa-clock"></i></span>Opening Hours
+                        </h3>
+
+                        <ul class="timming-area">
+                            <li>
+                                <h5>Monday<span class="time-custom">8am-10pm</span></h3>
+                            </li>
+                            <li>
+                                <h5>Tuesday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Wednesday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Thursday<span>8am-10pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Friday<span>11am-12pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Saturday<span>11am-12pm</span></h5>
+                            </li>
+                            <li>
+                                <h5>Sunday<span>11am-12pm</span></h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-contact-us">
+                        <h3 class="footer-inner-title"><span><i class="fa-solid fa-bullhorn"></i></span>Connect with us
+                        </h3>
+                        <ul class="footer-contact-area">
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Tiffin Services: <a href="tel:+1 647 293 8994">+1 647 293 8994</a> </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Catering Services: <a href="tel:+1 647 293 8994">+1 647 293 8994</a> </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                                <span class="footer-contact-area-text"><a href="mailto:abc@gmail.com">abc@gmail.com</a></span>
+                            </li>
+                        </ul>
+                        <div class="social-icons-footer">
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-area">
+                            <div class="copyright-text">
+                                <p>© 2023 Mr. Chef's. All rights reserved.</p>
+                            </div>
+                            <div class="development-text">
+                                <p>Design & Developed by <a target="_blank"
+                                        href="https://eirmonsolutions.com.au/">Eirmon Solution</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/348356cdb0.js" crossorigin="anonymous"></script>
+    <script src="css/main.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
